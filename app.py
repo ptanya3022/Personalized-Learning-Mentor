@@ -7,8 +7,12 @@ from dotenv import load_dotenv  # Import load_dotenv
 load_dotenv()
 
 # Get API key from environment variables
-api_key = st.secrets["GEMINI_API_KEY"]
-genai.configure(api_key=api_key)
+api_key = os.getenv("GEMINI_API_KEY")
+
+if api_key:
+    genai.configure(api_key=api_key)
+else:
+    raise ValueError("GEMINI_API_KEY is not set. Please check your .env file.")
 
 
 # Function to fetch AI-generated answers from Gemini 1.5 Flash
