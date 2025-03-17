@@ -52,8 +52,8 @@ An AI-powered learning companion that generates **topic-based questions** at dif
 
  **Clone the Repository:**  
    ```sh
-   git clone https://github.com/YOUR_GITHUB_USERNAME/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/ptanya3022/Personalized-Learning-Mentor.git
+   cd Personalized-Learning-Mentor
    
    Set Up a Virtual Environment:
    python -m venv venv
