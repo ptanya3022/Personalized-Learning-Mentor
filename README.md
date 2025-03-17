@@ -1,4 +1,4 @@
-# Personalized-Learning-Mentor
+
 # 🎓 Personalized Learning Mentor  
 
 An AI-powered learning companion that generates **topic-based questions** at different difficulty levels and provides **AI-generated answers** to enhance learning. This tool helps users explore concepts from **Beginner to Advanced levels** interactively.  
@@ -25,7 +25,7 @@ An AI-powered learning companion that generates **topic-based questions** at dif
 ## 📈 Business Impact  
 
 - **Accelerates Learning:** AI-generated explanations help users grasp complex topics faster.  
-- **Encourages Exploration:** Users can ask unlimited questions to deepen their knowledge.  
+-   Helps users build confidence by exploring different levels of difficuilty in a topic. 
 - **Adaptive Learning:** Personalized difficulty selection caters to different learning levels.  
 
 ---
