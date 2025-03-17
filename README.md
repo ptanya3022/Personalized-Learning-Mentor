@@ -26,7 +26,7 @@ An AI-powered learning companion that generates **topic-based questions** at dif
 
 - **Accelerates Learning:** AI-generated explanations help users grasp complex topics faster.  
 -   Helps users build confidence by exploring different levels of difficuilty in a topic. 
-- **Adaptive Learning:** Personalized difficulty selection caters to different learning levels.  
+-   Bridges the gap between basic understanding and in-depth knowledge through AI generated explanations. 
 
 ---
 
