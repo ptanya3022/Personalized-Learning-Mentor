@@ -1,21 +1,18 @@
 import streamlit as st
 import google.generativeai as genai  # Using Gemini API
-import os
-from dotenv import load_dotenv  # Import load_dotenv
 
-# Load environment variables from .env file
-load_dotenv()
 
 # Get API key from environment variables
-api_key = os.getenv("GEMINI_API_KEY")
+api_key = st.secrets["GEMINI_API_KEY"]
 
 if api_key:
     genai.configure(api_key=api_key)
+    st.success("API Key is loaded successfully!")
 else:
-    raise ValueError("GEMINI_API_KEY is not set. Please check your .env file.")
+    st.error("API Key is not set!")
 
 
-# Function to fetch AI-generated answers from Gemini 1.5 Flash
+# Function to fetch AI-generated answers from Gemini 1.5 Flash 
 def generate_answer(question):
     response = genai.GenerativeModel("gemini-1.5-flash").generate_content(question)
     return response.text if response and hasattr(response, "text") else "No answer available."
